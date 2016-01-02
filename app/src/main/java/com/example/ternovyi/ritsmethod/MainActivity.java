@@ -23,6 +23,7 @@ import com.jjoe64.graphview.series.LineGraphSeries;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
+    //
     public final String TAG = "RitsMethod";
 
     public EditText editTextN;
