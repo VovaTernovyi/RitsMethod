@@ -5,8 +5,7 @@ package com.example.ternovyi.ritsmethod;
  */
 public class Integral {
 
-    public static double CalculateWithSimpsonMethod(Core f, double a, double b, double eps, int i)
-    {
+    public static double CalculateWithSimpsonMethod(Core f, double a, double b, double eps, int i) {
         if (a == b) return 0;
         double I2n = 0, In = 0;
         eps = Math.abs(eps);
